@@ -1,1 +1,1 @@
-export * from './lib/buid-iancu';
+export * from './lib/buid-iancu.js';
