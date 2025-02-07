@@ -1,0 +1,20 @@
+{
+  "name": "buidIancu",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "package/bus/buidIancu/src",
+  "projectType": "library",
+  "tags": [],
+  "type":"module",
+  "targets": {
+    "build": {
+      "executor": "@nx/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/package/bus/buidIancu",
+        "main": "package/bus/buidIancu/src/index.ts",
+        "tsConfig": "package/bus/buidIancu/tsconfig.lib.json",
+        "assets": ["package/bus/buidIancu/*.md"]
+      }
+    }
+  }
+}
